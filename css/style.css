@@ -166,6 +166,11 @@ display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .main-title {
@@ -194,15 +199,15 @@ margin-bottom: 48px;
     letter-spacing: 0.04em;
     color: #fff;
     background-color: #4d5ae5;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.main-btn:hover{
+.main-btn:hover,
+.main-btn:focus{
     background-color: #404BBF;
 }
 
-.main-btn:focus{
-    background-color: #404BBF
-}
+
 
 /* List */
 
@@ -223,6 +228,7 @@ margin-bottom: 48px;
     padding-top: 120px;
     padding-bottom: 120px;
     background: #fff;
+    
 }
 
 .hero-list {
