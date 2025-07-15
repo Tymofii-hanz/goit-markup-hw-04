@@ -363,6 +363,7 @@ margin-bottom: 48px;
         letter-spacing: 0.02em;
         text-align: center;
         color: #434455;
+        margin-bottom: 8px;
 }
 
 /* Portfolio */
@@ -533,8 +534,7 @@ margin-bottom: 48px;
 
  .social-icon {
      fill:  #f4f4fd;
-     width: 24px;
-     height: 24px;
+     
  }
 
 
